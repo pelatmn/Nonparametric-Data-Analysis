@@ -158,3 +158,6 @@ data = pd.read_excel('path_to_file.xlsx')
 
 # Display first few rows
 print(data.head())
+
+#### 📫 How to Contribute
+Contributions are welcome! Feel free to open an issue or submit a pull request with improvements or additional analyses.
