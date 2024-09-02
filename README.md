@@ -137,3 +137,24 @@ This project focuses on the statistical analysis of dependent and independent no
   ```python
   import pandas as pd
   data = pd.read_excel('path_to_file.xlsx')
+
+## 📚 References
+
+- **Data Source:** 
+  - Euro exchange rates from [Investing.com](https://tr.investing.com/currencies/eur-try-historical-data) (Accessed on January 6, 2024).
+- **Literature:**
+  - Corder, G. W., & Foreman, I. D. (2014). *Nonparametric Statistics*. Wiley.
+
+## 🔧 Appendix: Code Snippets
+
+### Independent Data Analysis
+
+#### Importing Data and Initial Analysis
+```python
+import pandas as pd
+
+# Load independent data
+data = pd.read_excel('path_to_file.xlsx')
+
+# Display first few rows
+print(data.head())
